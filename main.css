@@ -1,0 +1,50 @@
+body {
+	background-color: #8b796e;
+}
+
+.navbar{
+	height: 50px;
+	background-color: #24262e;
+}
+
+.navbar a {
+	display: block;
+	float: left;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px 5px;
+	background-color: #fff;
+}
+
+/* unvisited link */
+.navbar a:link {
+    color: red;
+}
+
+/* visited link */
+.navbar a:visited {
+    color: green;
+}
+
+/* mouse over link */
+.navbar a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+.navbar a:active {
+    color: blue;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.responsive {
+	float: left;
+}
+
+.clear-fix {
+	clear: both;
+}
